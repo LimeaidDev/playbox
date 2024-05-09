@@ -85,7 +85,7 @@ while True:
             with open(f"boxes/{BoxName}/box.json") as file:
                 boxdata = json.load(file)
             ip = boxdata["ipadr"]
-            scp_session = f'scp -o StrictHostKeyChecking=no -i "boxes/{BoxName}/key.pem" {FilePath} ubuntu@{ip}:/home/ubuntu'
+            scp_session = f'scp -o StrictHostKeyChecking=no -i "boxes/{BoxName}/key.pem" {FilePath} ubuntu@{ip}:/home/ubuntu/server01'
             os.system(scp_session)
         except FileNotFoundError:
             print(f"\033[91mBox '{BoxName}' doesnt exist\033[0m")
