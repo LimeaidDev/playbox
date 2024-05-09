@@ -1,7 +1,7 @@
 # Playbox
 <a href='https://ko-fi.com/X8X3XQ995' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a><br>
 Playbox is a easy to use Minecraft server creation and management tool that uses <a href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html">AWS EC2</a> instances to create servers
-Servers must be <a src='https://aws.amazon.com/ec2/graviton/'>ARM Instances</a>
+Servers must be <a href='https://aws.amazon.com/ec2/graviton/'>ARM Instances</a><br>
 If you have any questions or concerns, <a href='https://discord.gg/MZWav7eVQb'>join my Discord server</a>, Or dm me @limeadetv
 
 ## Quick Start
