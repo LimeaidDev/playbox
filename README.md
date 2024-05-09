@@ -4,7 +4,6 @@ Playbox is a easy to use Minecraft server creation and management tool that uses
 Servers must be <a src='https://aws.amazon.com/ec2/graviton/'>ARM Instances
 If you have any questions or concerns, <a href='https://discord.gg/MZWav7eVQb'>join my Discord server</a>, Or dm me @limeadetv
 
-Server Instance must be ARM based. <a href="https://aws.amazon.com/ec2/graviton/">Compatable Instance Types</a>
 ## Quick Start
 1. Clone the Repository
 ```
