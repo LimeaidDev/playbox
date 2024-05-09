@@ -5,7 +5,7 @@ Servers must be <a href='https://aws.amazon.com/ec2/graviton/'>ARM Instances</a>
 If you have any questions or concerns, <a href='https://discord.gg/MZWav7eVQb'>join my Discord server</a>, Or dm me @limeadetv
 
 ## Quick Start
-1. Clone the Repository
+1. Clone the Repository. <a href="https://git-scm.com/downloads">Git download</a>
 ```
 git clone https://github.com/LimeaidDev/playbox.git
 ```
