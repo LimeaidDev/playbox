@@ -18,7 +18,7 @@ tmux set mouse on
 tmux split-window -h
 tmux split-window -t 1 -v
 tmux send-keys -t 0 'java -jar ~/server.jar nogui && echo "eula=true" > eula.txt && clear && java -jar ~/server.jar nogui' Enter
-tmux send-keys -t 1 'clear && neofetch && echo "Consider donating to my Ko-fi: ko-fi.com/playbox" && echo -e "\nServer IP: " && curl ifconfig.me' Enter
+tmux send-keys -t 1 'clear && neofetch && echo "Consider donating to my Ko-fi: ko-fi.com/playbox" && echo -e "\nServer IP: " && curl ifconfig.me && echo' Enter
 tmux send-keys -t 2 'clear && htop' Enter
 
 tmux attach-session -t server01
