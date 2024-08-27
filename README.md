@@ -15,7 +15,13 @@ aws_access_key_id = 'Insert Access Key ID Here'
 aws_secret_access_key = 'Insert Access Key Here'
 region_name = 'us-east-2'
 ```
-3. Run `playbox.bat` and create your first server
+4. Run Playbox<br>
+Windows: `start playbox.bat`<br>
+Debian/Ubuntu: `sh playbox.sh`
+
+
+
+3. Create your first server
 ```
 $ create MyFirstServer t4g.medium vanilla
 ```
